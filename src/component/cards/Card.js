@@ -8,8 +8,8 @@ function CardItem(props) {
     <Card style={{ width: "35rem", padding: "1rem" }}>
       <Card.Img className="card-img" variant="top" src={image} alt="img1" />
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <Card.Text>{desc}</Card.Text>
+        <Card.Title className="title">{title}</Card.Title>
+        <Card.Text className="text">{desc}</Card.Text>
       </Card.Body>
     </Card>
   );

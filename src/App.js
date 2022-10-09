@@ -20,9 +20,9 @@ function App() {
           data.map((card) => (
             <Col
               className="border d-flex justify-content-center"
-              xs={6}
+              xs={12}
               lg={4}
-              md={3}
+              md={6}
             >
               <CardItem
                 id={card.id}

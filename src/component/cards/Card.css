@@ -1,3 +1,7 @@
 .card-img {
   height: 20rem;
 }
+
+.text {
+  overflow: hidden;
+}
