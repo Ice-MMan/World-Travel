@@ -2,10 +2,19 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: large;
+  color: rgba(18, 18, 131, 0.808);
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-around;
   padding: 2rem;
+}
+
+.nav-bar p:hover {
+  scale: 150%;
+  background-color: rgba(0, 0, 255, 0.534);
+  padding: 0.2rem;
+  border-radius: 6px;
 }

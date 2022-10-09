@@ -19,7 +19,7 @@ function App() {
           data.length > 0 &&
           data.map((card) => (
             <Col
-              className="border d-flex justify-content-center"
+              className="d-flex justify-content-center"
               xs={12}
               lg={4}
               md={6}
